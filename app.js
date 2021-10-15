@@ -8,7 +8,7 @@ form.addEventListener('submit', addTask);
 
 function addTask(e){
 	const task = new Task(taskInput.value);
-	ul.addTask(task);
+	ui.addTask(task);
 	ls.addTask(task);
 	e.preventDefult();
 }
