@@ -10,5 +10,5 @@ function addTask(e){
 	const task = new Task(taskInput.value);
 	ui.addTask(task);
 	ls.addTask(task);
-	e.preventDefult();
+	e.preventDefault();
 }
